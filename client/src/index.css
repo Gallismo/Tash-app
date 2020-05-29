@@ -1,0 +1,28 @@
+.butn {
+    margin-right: 10px;
+}
+
+body {
+    height: 100vh;
+}
+
+.page-comp {
+    margin-top: 100px;
+}
+
+.loader {
+    margin-top: 100px;
+}
+
+.navi {
+    border-bottom: 3px solid black;
+}
+
+.auth {
+    width: 50%;
+    margin: 30px auto;
+}
+
+a {
+    text-decoration: none !important;
+}

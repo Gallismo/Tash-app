@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtKutak": "kutak",
+    "mongoUri": "mongodb+srv://Gallismo:2785906WOT@cluster0-ufnxk.azure.mongodb.net/test?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}

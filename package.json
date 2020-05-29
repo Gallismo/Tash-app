@@ -1,0 +1,38 @@
+{
+  "name": "kutak",
+  "version": "1.0.0",
+  "description": "kutak",
+  "main": "kutak.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node kutak.js ",
+    "server": "nodemon kutak.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\"",
+    "install": "npm-git install"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "REST",
+    "API"
+  ],
+  "author": "tupak",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "npm-git-install": "^0.3.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
